@@ -4,6 +4,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "version": "lerna version",
+    "publish": "lerna publish",
     "build": "lerna run build --ignore demo",
     "lint": "npm run lint:es; npm run lint:style",
     "lint:es": "lerna run lint:es --no-bail --parallel",
