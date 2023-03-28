@@ -1,5 +1,5 @@
 {
-  "name": "@uniplore/vue3-drr-grid-layout",
+  "name": "@uniplore-public/vue3-drr-grid-layout",
   "version": "1.9.8",
   "description": "Vue3 grid layout with resize, drag and responsive",
   "keywords": [
@@ -77,5 +77,5 @@
     "vue-tsc": "^0.39.0",
     "vue-typegen": "^0.2.0"
   },
-  "gitHead": "487546af032961fa557a4f444e0862760d2eeec1"
+  "gitHead": "646657fbd3cf40cfe1998156c4a91cc3f934ec25"
 }
