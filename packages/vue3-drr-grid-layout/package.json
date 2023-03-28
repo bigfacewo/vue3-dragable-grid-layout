@@ -76,5 +76,6 @@
     "vue-template-compiler": "^2.7.8",
     "vue-tsc": "^0.39.0",
     "vue-typegen": "^0.2.0"
-  }
+  },
+  "gitHead": "67a9da04e6edd4daf9a8cde632bebf80e358039d"
 }
