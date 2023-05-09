@@ -52,7 +52,7 @@ const props = defineProps({
   },
   i: {
     required: true,
-    type: Number
+    type: [Number, String]
   },
   isDraggable: {
     required: true,
@@ -124,15 +124,15 @@ const props = defineProps({
     default: 'a, button'
   },
   dragAllowFrom: {
-      type: String,
-      required: false,
-      default: null
+    type: String,
+    required: false,
+    default: null
   },
   dragOption:{
     type:Object,
     required: false,
-    default: ()=>({}),
-  },
+    default: () => ({})
+  }
 })
 const emit = defineEmits(['container-resized', 'resize', 'resized', 'move', 'moved', 'drag-event', 'resize-event'])
 const item = ref<HTMLDivElement | null>(null)
